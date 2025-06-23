@@ -14,30 +14,165 @@
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/figuration@4.4.1/dist/js/figuration.min.js" integrity="sha384-gGDsn/6ZOImDd4DHt747nYhNPVTfAIgdxqEgnEBHruXlDd6/FBjLhXnDlYVPefsu" crossorigin="anonymous"></script>
+  
+    <!-- Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/513a6abf4f.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid m-1">
       <div class="row my-2">
         <div class="col">
           <div class="text-center">
-            <img src="res/self.jpg" width="15%" class="img-thumbnail" alt="picture of me">
+            <img src="res/backcountry_cropped_sm.jpg" class="img-fluid" alt="me walking on trail with mountains in background">
             <h1>Josh Siva</h1>
             <h2>Digital Learning Designer</h2>
           </div>
         </div>
       </div>
+
+      <div class="row mx-2">
+        <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>Need help?</h1>
+          <p class="lead">Find out how I can help you on your next learning project!</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </p>
+        </div>
+        </div>
+    </div>
         
 
-      <div class="row gx-4_5">
+      <div class="row mb-2">
         <div class="col">
-          <h3>About Me</h3>
+          <div class="card text-center" style="max-width: 18rem;">
+            <div class="card-body">
+              <h4 class="card-title">About me</h4>
+               <a href="#about_me">
+              <i class="fa-solid fa-user fa-2xl"></i>
+              </a>
+            </div>
+           
+          </div>
         </div>
         <div class="col">
           <h3>Work Samples</h3>
+          <a href="#work_samples">
+            <i class="fa-solid fa-briefcase fa-2xl"></i>
+          </a>
+        </div>
+        <div class="col text-center">
+          <h3>Current Projects</h3>
+          <a href="#current_projects">
+            <i class="fa-solid fa-diagram-project fa-2xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="about_me" class="row mb-1">
+        <h3>About me</h3>
+        
+
+        
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md"></div>
+        <div class="col-md">
+          <img src="res/self.jpg" width="50%" class="img-thumbnail" alt="picture of me">
+
         </div>
         <div class="col">
-          <h3>Current Projects</h3>
+          <p>Hi! With a background in computer science and a dedication to making learning more accessible, 
+        I strive to make a difference in how learners engage with STEM topics</p>
+
+          <p>Resume</p>
         </div>
+      </div>
+
+      <div id="work_samples" class="row mb-2">
+        <h3>Work Samples</h3>
+        <div data-cfw="accordion" class="accordion">
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card0" role="button" data-cfw="collapse" class="open">Collapse Toggle #1</a>
+      </h4>
+    </div>
+    <div id="card0" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card1" role="button" data-cfw="collapse">Collapse Toggle #2</a>
+      </h4>
+    </div>
+    <div id="card1" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card2" role="button" data-cfw="collapse">Collapse Toggle #3</a>
+      </h4>
+    </div>
+    <div id="card2" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <div id="current_projects" class="row mb-2">
+        <h3>Current Projects</h3>
+        <div data-cfw="accordion" class="accordion">
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card0" role="button" data-cfw="collapse" class="open">Collapse Toggle #1</a>
+      </h4>
+    </div>
+    <div id="card0" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card1" role="button" data-cfw="collapse">Collapse Toggle #2</a>
+      </h4>
+    </div>
+    <div id="card1" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+  <div class="card mb-0">
+    <div class="card-header">
+      <h4 class="mb-0">
+        <a href="#card2" role="button" data-cfw="collapse">Collapse Toggle #3</a>
+      </h4>
+    </div>
+    <div id="card2" class="collapse">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non nisi ipsum. Quisque feugiat, arcu in pulvinar varius; risus odio interdum diam; a hendrerit urna sem vitae enim. Aenean fermentum iaculis nibh sodales consectetur.
+      </div>
+    </div>
+  </div>
+</div>
       </div>
         
     </div>
