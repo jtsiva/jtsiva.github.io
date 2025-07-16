@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8" />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body {
+        font-family: "Droid Serif";
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Yanone Kaffeesatz";
+        font-weight: normal;
+      }
+      .remark-code,
+      .remark-inline-code {
+        font-family: "Ubuntu Mono";
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slide-region" aria-live="assertive">
+        <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+        <script>
+        const timings = [5, 10, 15];
+
+        const slideshow = remark.create({ sourceUrl: "./slides.md" });
+
+        const audioPlayer =
+            window.parent.document.getElementById("presentation-audio");
+
+        audioPlayer.addEventListener("timeupdate", (e) => {
+            let i = 1;
+            for (const time of timings) {
+            //   console.log(audioPlayer.currentTime + " " + time);
+            if (audioPlayer.currentTime > time) {
+                i += 1;
+            }
+            }
+            // console.log("change slide to: " + i);
+            slideshow.gotoSlide(i);
+        });
+        </script>
+    </div>
+  </body>
+</html>
