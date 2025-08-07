@@ -50,7 +50,7 @@
           <div class="card text-center" style="max-width: 18rem;">
             <a href="#about_me">
               <div class="card-body">
-                <h4 class="card-title">About me</h4>
+                <h2 class="card-title">About me</h2>
                 
                 <i class="fa-solid fa-user fa-2xl"></i>
               
@@ -62,7 +62,7 @@
           <div class="card text-center" style="max-width: 18rem;">
             <a href="#work_samples">
               <div class="card-body">
-                <h4 class="card-title">Work Samples</h4>
+                <h2 class="card-title">Work Samples</h2>
                 
                 <i class="fa-solid fa-briefcase fa-2xl"></i>
                 
@@ -74,7 +74,7 @@
           <div class="card text-center" style="max-width: 18rem;">
             <a href="#current_projects">
               <div class="card-body">
-                <h4 class="card-title">Current Projects</h4>
+                <h2 class="card-title">Current Projects</h2>
                 
                 <i class="fa-solid fa-diagram-project fa-2xl"></i>
           
@@ -84,8 +84,8 @@
         </div>
       </div>
 
-      <div id="about_me" class="row mb-2 mx-2">
-        <h3>About me</h3>
+      <div class="row mb-2 mx-2">
+      <h2 id="about_me" tabindex="0">About me</h2>       
         
       </div>
 
@@ -108,154 +108,149 @@
         </div>
       </div>
 
-      <div id="work_samples" class="row mb-2 mx-2">
-        <h3>Work Samples</h3>
+      <div class="row mb-2 mx-2">
+        <h2 id="work_samples" tabindex="0">Work Samples</h2>
         <div data-cfw="accordion" class="accordion">
-  <div class="card mb-0">
-    <div class="card-header">
-      <h4 class="mb-0">
-        <a href="#card0" role="button" data-cfw="collapse" class="open">AI-powered Course Development</a>
-      </h4>
-    </div>
-    <div id="card0" class="collapse">
-      <div class="card-body">
+          <div class="card mb-0">
+            <div class="card-header">
+              <h4 class="mb-0">
+                <a href="#card0" role="button" data-cfw="collapse" class="open">AI-powered Course Development</a>
+              </h4>
+            </div>
+            <div id="card0" class="collapse">
+              <div class="card-body">
 
-        <div class="row">
-          <div class="col">
-            <div data-cfw="player" class="video-wrapper">
-              <div class="embed-fluid">
-                <video controls>
-                  <source src="/res/AI Generation Workflow Example.mp4" type="video/mp4">
-                 <p>HTML5 video not supported</p>
-                </video>
-              </div>
-              <div class="player-wrapper">
-                <div class="player row" role="region" aria-label="video player" data-cfw-player="player">
-                  <div class="col-md-6">
-                    <span class="player-control" data-cfw-player="control">
-                      <button type="button" class="btn btn-icon" data-cfw-player="play" title="Play" aria-label="Play"><span class="fas fa-fw fa-play" aria-hidden="true"></span></button>
-                      <button type="button" class="btn btn-icon" data-cfw-player="pause" title="Pause" aria-label="Pause"><span class="fas fa-fw fa-pause" aria-hidden="true"></span></button>
-                      <button type="button" class="btn btn-icon" data-cfw-player="stop" title="Stop" aria-label="Stop"><span class="fas fa-fw fa-stop" aria-hidden="true"></span></button>
-                    </span>
-                    <button type="button" class="btn btn-icon" title="Repeat" aria-label="Repeat" data-cfw-player="loop"><span class="fas fa-fw fa-redo" aria-hidden="true"></span></button>
-                    
-                    <span class="player-time" data-cfw-player="time">
-                      <span class="player-seek" data-cfw-player="seek">
-                        <input type="range" class="form-range" aria-label="Seek">
-                      </span>
-                      <span class="player-time-current" data-cfw-player="time-current"></span> /
+                <div class="row">
+                  <div class="col">
+                    <div data-cfw="player" class="video-wrapper">
+                      <div class="embed-fluid">
+                        <video controls>
+                          <source src="/res/AI Generation Workflow Example.mp4" type="video/mp4">
+                        <p>HTML5 video not supported</p>
+                        </video>
+                      </div>
+                      <div class="player-wrapper">
+                        <div class="player row" role="region" aria-label="video player" data-cfw-player="player">
+                          <div class="col-md-6">
+                            <span class="player-control" data-cfw-player="control">
+                              <button type="button" class="btn btn-icon" data-cfw-player="play" title="Play" aria-label="Play"><span class="fas fa-fw fa-play" aria-hidden="true"></span></button>
+                              <button type="button" class="btn btn-icon" data-cfw-player="pause" title="Pause" aria-label="Pause"><span class="fas fa-fw fa-pause" aria-hidden="true"></span></button>
+                              <button type="button" class="btn btn-icon" data-cfw-player="stop" title="Stop" aria-label="Stop"><span class="fas fa-fw fa-stop" aria-hidden="true"></span></button>
+                            </span>
+                            <button type="button" class="btn btn-icon" title="Repeat" aria-label="Repeat" data-cfw-player="loop"><span class="fas fa-fw fa-redo" aria-hidden="true"></span></button>
+                            
+                            <span class="player-time" data-cfw-player="time">
+                              <span class="player-seek" data-cfw-player="seek">
+                                <input type="range" class="form-range" aria-label="Seek">
+                              </span>
+                              <span class="player-time-current" data-cfw-player="time-current"></span> /
 
-                      <span class="player-time-duration" data-cfw-player="time-duration"></span>
-                    </span>
-                    
+                              <span class="player-time-duration" data-cfw-player="time-duration"></span>
+                            </span>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
+                </div>
+                <div class="col">
+                  <p>As part of an experimental GenAI-centered project aimed at reducing the time and cost to launch a online course, I developed a workflow to ensure that screencast scripts 
+                    were based on quality code. Moreover, the generated screencast script is intended to include code snippets and sufficient
+                    detail to be able act as as alternative representation of the screencast for those who need it. The process was this:
+                    <ul>
+                      <li>create very basic outline of a screencast</li>
+                      <li>Use a GenAI agent to help create a python notebook</li>
+                      <li>LD gets notebook operational</li>
+                      <li>SME reviews and updates notebook</li>
+                      <li>Use notebook to generate script</li>
+                      <li>SME reviews and updates script!</li>
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col">
-          <p>As part of an experimental GenAI-centered project aimed at reducing the time and cost to launch a online course, I developed a workflow to ensure that screencast scripts 
-            were based on quality code. Moreover, the generated screencast script is intended to include code snippets and sufficient
-            detail to be able act as as alternative representation of the screencast for those who need it. The process was this:
-            <ul>
-              <li>create very basic outline of a screencast</li>
-              <li>Use a GenAI agent to help create a python notebook</li>
-              <li>LD gets notebook operational</li>
-              <li>SME reviews and updates notebook</li>
-              <li>Use notebook to generate script</li>
-              <li>SME reviews and updates script!</li>
-            </ul>
-          </p>
-        </div>
+          <div class="card mb-0">
+            <div class="card-header">
+              <h4 class="mb-0">
+                <a href="#card1" role="button" data-cfw="collapse">Recording Guidance for Screencasts</a>
+              </h4>
+            </div>
+            <div id="card1" class="collapse">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col">
+                    <img src="res/zoom_cursor-color_example.png" alt="zoomed in on working area of text editor with enlarged, high contrast cursor" class="img-thumbnail">
+                    <p>Created concrete recording guidance for instructors to help them create more accessible screencast videos. 
+                      I created my own demonstration videos to clearly illustrate best practices including zooming in, changing cursor color and size,
+                      and using more descriptive language to describe on-screen actions.</p>
+                  </div>
+                  <div class="col">
+                    <img src="res/gp_1st_task_overview.png" alt="screenshot of diagram illustrating the necessary components of the first video in an instructional series" class="img-thumbnail">
+                    <p>Expanded on a set of guidance slides by creating a video that illustrated the different elements required for this type of learning experience. 
+                      This served the two-fold purpose of establishing a common vocabulary as well as providing concrete examples of what we were looking for. </p>
+                  </div>
+                </div>
 
+                <div class="row">
+                </div>
 
-
-
-
-      </div>
-    </div>
-  </div>
-  <div class="card mb-0">
-    <div class="card-header">
-      <h4 class="mb-0">
-        <a href="#card1" role="button" data-cfw="collapse">Recording Guidance for Screencasts</a>
-      </h4>
-    </div>
-    <div id="card1" class="collapse">
-      <div class="card-body">
-        <div class="row">
-          <div class="col">
-            <img src="res/zoom_cursor-color_example.png" alt="zoomed in on working area of text editor with enlarged, high contrast cursor" class="img-thumbnail">
-            <p>Created concrete recording guidance for instructors to help them create more accessible screencast videos. 
-              I created my own demonstration videos to clearly illustrate best practices including zooming in, changing cursor color and size,
-              and using more descriptive language to describe on-screen actions.</p>
+              </div>
+            </div>
           </div>
-          <div class="col">
-            <img src="res/gp_1st_task_overview.png" alt="screenshot of diagram illustrating the necessary components of the first video in an instructional series" class="img-thumbnail">
-            <p>Expanded on a set of guidance slides by creating a video that illustrated the different elements required for this type of learning experience. 
-              This served the two-fold purpose of establishing a common vocabulary as well as providing concrete examples of what we were looking for. </p>
+          <div class="card mb-0">
+            <div class="card-header">
+              <h4 class="mb-0">
+                <a href="#card2" role="button" data-cfw="collapse">Story-driven Hands on Learning</a>
+              </h4>
+            </div>
+            <div id="card2" class="collapse">
+              
+                <div class="card-body">
+                  <div class="col">
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2XWe3BL6XE_T7sd-aeO9VmQW5BhPfkZR0D3ygVJef8-3-bU1GzQ0_wYXcHrLcPGLswB0E2ew53hH3/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <p>One of my favorite learning experiences that I have worked on involved the use of an authentic story 
+                    to motivate a 5-7 video side-by-side development sequence. For these Guided Projects, I tried to classify and expand 
+                    upon the types of story structures that were used to motivate the actions within each project. The goal was to provide
+                    clear options and guidance for SMEs during development as well as greater variety for learners.
+                    </p>
+                  </div>
+                  
+                </div>
+              
+            </div>
           </div>
-        </div>
-
-        <div class="row">
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="card mb-0">
-    <div class="card-header">
-      <h4 class="mb-0">
-        <a href="#card2" role="button" data-cfw="collapse">Story-driven Hands on Learning</a>
-      </h4>
-    </div>
-    <div id="card2" class="collapse">
-      
-        <div class="card-body">
-          <div class="col">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT2XWe3BL6XE_T7sd-aeO9VmQW5BhPfkZR0D3ygVJef8-3-bU1GzQ0_wYXcHrLcPGLswB0E2ew53hH3/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            <p>One of my favorite learning experiences that I have worked on involved the use of an authentic story 
-            to motivate a 5-7 video side-by-side development sequence. For these Guided Projects, I tried to classify and expand 
-            upon the types of story structures that were used to motivate the actions within each project. The goal was to provide
-            clear options and guidance for SMEs during development as well as greater variety for learners.
-            </p>
+          <div class="card mb-0">
+            <div class="card-header">
+              <h4 class="mb-0">
+                <a href="#card2b" role="button" data-cfw="collapse">Cahuilla Podcast Demo</a>
+              </h4>
+            </div>
+            <div id="card2b" class="collapse">
+              
+                <div class="card-body">
+                  <div class="col">
+                    <audio id="presentation-audio" controls>
+                      <source src="./res/cah_100_podcast_ex_3.mp3" type="audio/mpeg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                    <p>Here is a demo of a what a Cahuilla podcast could sound like. I discuss the weather, news on the reservation, talk about 
+                      my failed experiment with making wiwish, and include a story from an elder. The intro and outro are a traditional Bird Song 
+                      performed by Derek Duro with Torres-Martinez Desert Cahuilla Bird Singers.
+                    </p>
+                  </div>
+                  
+                </div>
+              
+            </div>
           </div>
-          
-        </div>
-       
-    </div>
-  </div>
-  <div class="card mb-0">
-    <div class="card-header">
-      <h4 class="mb-0">
-        <a href="#card2b" role="button" data-cfw="collapse">Cahuilla Podcast Demo</a>
-      </h4>
-    </div>
-    <div id="card2b" class="collapse">
-      
-        <div class="card-body">
-          <div class="col">
-            <audio id="presentation-audio" controls>
-              <source src="./res/cah_100_podcast_ex_3.mp3" type="audio/mpeg" />
-              Your browser does not support the audio element.
-            </audio>
-            <p>Here is a demo of a what a Cahuilla podcast could sound like. I discuss the weather, news on the reservation, talk about 
-              my failed experiment with making wiwish, and include a story from an elder. The intro and outro are a traditional Bird Song 
-              performed by Derek Duro with Torres-Martinez Desert Cahuilla Bird Singers.
-            </p>
-          </div>
-          
-        </div>
-       
-    </div>
-  </div>
 </div>
       </div>
 
-  <div id="current_projects" class="row mb-2 mx-2">
-        <h3>Current Projects</h3>
-        <div data-cfw="accordion" class="accordion">
+  <div class="row mb-2 mx-2">
+    <h2 id="current_projects" tabindex="0">Current Projects</h2>
+    <div data-cfw="accordion" class="accordion">
   <div class="card mb-0">
     <div class="card-header">
       <h4 class="mb-0">
